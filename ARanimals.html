@@ -6,34 +6,6 @@
   
 </head>
 <body>
-  
-<a-scene embedded artoolkit="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;">
-
-<!--elephant -->
-  <a-assets>
-    <a-asset-item id="obj1" src="models/elephant.obj"></a-asset-item>
-    <a-asset-item id="mtl1" src="models/elephant.mtl"></a-asset-item>
-  </a-assets>
-
-  <a-marker preset="hiro">
-  <a-obj-model src="#obj1" mtl="#mtl1" position="0 0 0" rotation="0 0 0" scale="0.2 0.2 0.2"> </a-obj-model>
-</a-marker>
-
-
-<!--fish -->
-  <a-assets>
-    <a-asset-item id="obj2" src="models/fish-2.obj"></a-asset-item>
-    <a-asset-item id="mtl2" src="models/fish-2.mtl"></a-asset-item>
-    </a-assets>
-
-  <a-marker type="pattern" url="marker/letterA.patt" size="1">
-    <a-obj-model src="#obj2" mtl="#mtl2" position="0 0 0" rotation="0 0 0" scale="0.2 0.2 0.2"> </a-obj-model>
-    <a-animation attribute="rotation" dur="10000" fill="forwards" to="0 90 0" repeat="indefinite"></a-animation>
-  </a-marker>
-
-  <!--camera -->
-
-  <a-entity camera></a-entity>
-</a-scene>
+  <p colour: red> helo </p>
 </body>
 </html>
